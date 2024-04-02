@@ -34,6 +34,9 @@ int main()
 	k3->next = NULL;
 	head = k1;
 	actionLinkedList(head, &action);
+	free(head);
+	free(k2);
+	free(k3);
 	return 0;
 
 }
